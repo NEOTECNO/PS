@@ -964,7 +964,7 @@ textarea.error {
     height: 110px;
     position: relative;
     margin: auto;
-    top: -420px;
+    top: -466px;
     left: 0px;
   }
   #CUT-IN {
@@ -988,25 +988,25 @@ textarea.error {
   #CUT-IN-LARGE {
     width: 100%;
     position: relative;
-    bottom: -770px;
+    bottom: -900px;
   }
 
   .main4 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1258px;
+    height: 1444px;
   }
   .main4__right {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1258px;
+    height: 1444px;
   }
   #Stars {
     width: 40%;
     position: relative;
-    top: -464px;
+    top: -525px;
     left: 25px;
   }
   #INFO {
@@ -1029,7 +1029,7 @@ textarea.error {
   #text3 {
     width: 100%;
     position: relative;
-    top: -107px;
+    top: -120px;
     left: 0px;
   }
   #Ronin {
@@ -1047,11 +1047,17 @@ textarea.error {
     width: 100%;
     height: 255px;
   }
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1065px;
+  }
   .main3__right {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 918px;
+    height: 1065px;
   }
   .main3__logo_2_3 {
     display: flex;
