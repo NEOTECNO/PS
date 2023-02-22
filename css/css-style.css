@@ -819,6 +819,256 @@ textarea.error {
   border-color: red;
 }
 
+@media (max-width: 1360px) {
+  #CUT-IN-TOP-2 {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+  }
+  #CUT-IN-2 {
+    width: 100%;
+    position: relative;
+  }
+  .head-twitter {
+    width: 147px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 25px;
+    bottom: 0px;
+  }
+  .head-discord {
+    width: 137px;
+    height: 60px;
+    margin-right: 25px;
+    bottom: 0px;
+  }
+  .head-opensea {
+    width: 152px;
+    height: 60px;
+    margin-right: 10px;
+    bottom: 0px;
+  }
+  #logo0 {
+    position: relative;
+    top: -15px;
+    left: 0px;
+  }
+  #logo1 {
+    position: relative;
+    bottom: 766px;
+    right: 0px;
+  }
+  #logo2 {
+    position: relative;
+    top: -600px;
+    left: 67px;
+  }
+  #logo3 {
+    position: relative;
+    top: -1000px;
+    left: 627px;
+  }
+  #CUT-IN {
+    width: 100%;
+    position: relative;
+  }
+  #text1 {
+    position: relative;
+    top: -1021px;
+    left: 592px;
+  }
+  #text2 {
+    margin-left: 0px;
+    position: relative;
+    top: -775px;
+    left: -649px;
+  }
+  #CUT-IN-LARGE {
+    width: 100%;
+    position: relative;
+    bottom: -370px;
+  }
+
+  .main4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1444px;
+  }
+  .main4__right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1058px;
+  }
+  #Stars {
+    position: relative;
+    top: -673px;
+    left: 25px;
+  }
+  #INFO {
+    position: relative;
+    top: -835px;
+    left: 427px;
+  }
+  #Gameplay {
+    position: relative;
+    top: -1180px;
+    left: 919px;
+  }
+  #CUT-IN-4 {
+    width: 100%;
+    position: relative;
+    top: 500px;
+  }
+  #text3 {
+    position: relative;
+    top: -1188px;
+    left: 361px;
+  }
+  #Ronin {
+    position: relative;
+    top: 30px;
+    left: 12px;
+  }
+
+  .main2__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 890px;
+  }
+  .main3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1065px;
+  }
+  .main3__right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 930px;
+  }
+  .main3__logo_2_3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .main__row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: right;
+    height: 140px;
+  }
+
+  .main__left {
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .header__row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__center {
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+
+  .btn-head {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 0px;
+    margin-bottom: 12px;
+  }
+
+  .number {
+    font-size: calc(45px + 30 * (100vw / 1920));
+    margin-top: 10px;
+  }
+
+  body {
+    background-color: #000000;
+    background-size: cover;
+    height: 137vh;
+  }
+
+  .form-row {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .form-row-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .form-text-2 {
+    font-size: 20px;
+  }
+
+  .form-row-amount {
+    width: 100%;
+  }
+
+  .btn-form {
+    margin: 20px 0px 0 auto;
+    padding: 0 50px;
+    font-size: 22px;
+  }
+
+  .in-form {
+    border-radius: 8px;
+    height: 50px;
+    width: 45vw;
+    padding: 20px 26px;
+    color: #3b2f7d;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all 0.4s ease 0s;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  .in-form::placeholder, .in-form::-moz-placeholder, .in-form::-webkit-placeholder {
+    color: #3b2f7d;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .in-form:focus {
+    background: #ffffff;
+  }
+
+  .text-bot-form {
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+  }
+
+  .for-right {
+    margin: 20px 0 20px 0;
+  }
+}
+
 @media (max-width: 800px) {
   .main__left {
     width: 60%;
@@ -1075,7 +1325,7 @@ textarea.error {
     position: relative;
     justify-content: right;
     height: 90px;
-}
+  }
 
   .main__left {
     padding-right: 0;
